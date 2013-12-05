@@ -48,6 +48,7 @@ class Position {
 	}
 
 	public void setxyPoz(int x, int y) {
+		int k = 4;
 		xPoz = x;
 		yPoz = y;
 	}
