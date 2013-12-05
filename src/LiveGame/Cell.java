@@ -1,41 +1,43 @@
 package LiveGame;
-
+/*
+ * 
+ * 
+ *  Cell class
+ * 
+ * 
+ * 
+ */
 public class Cell {
 
 	private boolean live;
-	
-	public Cell(boolean live){
-		
+
+	public Cell(boolean live) {
+
 		this.live = live;
-		
+
 	}
 
-	
-	public boolean isAlife(){
-		
+	public boolean isAlife() {
+
 		return live;
-		
+
 	}
-	
-	public void changeState(){
-		
+
+	public void changeState() {
+
 		this.live = !live;
-		
+
 	}
-	
-	
-	public String toString(){
-		
-		if(isAlife())
+
+	public String toString() {
+
+		if (isAlife())
 			return "x";
 		else
-			return"-";
-		
+			return "-";
+
 	}
-	
-	
-	
-	
+
 }
 
 class Position {
@@ -43,13 +45,13 @@ class Position {
 	private int xPoz;
 	private int yPoz;
 
-	Position(int x, int y){
-		
+	Position(int x, int y) {
+
 		xPoz = x;
 		yPoz = y;
-		
+
 	}
-	
+
 	public int getxPoz() {
 		return xPoz;
 	}
