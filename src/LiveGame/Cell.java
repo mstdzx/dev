@@ -53,6 +53,7 @@ class Position {
 		xPoz = x;
 		yPoz = y;
 		//comment 1
+		//coment3
 	}
 
 	public int getyPoz() {
