@@ -55,4 +55,5 @@ class Position {
 	public int getyPoz() {
 		return yPoz;
 	}
+
 }
