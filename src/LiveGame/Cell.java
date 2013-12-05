@@ -17,7 +17,7 @@ public class Cell {
 
 	public boolean isAlife() {
 		return live;
-	}
+	}//m1
 
 	public void changeState() {
 		this.live = !live;
