@@ -4,7 +4,7 @@ package LiveGame;
  * 
  *  Cell class
  * 
- * 
+ *
  * 
  */
 public class Cell {
@@ -41,6 +41,7 @@ class Position {
 	Position(int x, int y) {
 		xPoz = x;
 		yPoz = y;
+		int z =5;
 	}
 
 	public int getxPoz() {
