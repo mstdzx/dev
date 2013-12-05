@@ -13,7 +13,7 @@ public class Cell {
 	
 	public Cell(boolean live) {
 		this.live = live;
-	}
+	}//master
 
 	public boolean isAlife() {
 		return live;
