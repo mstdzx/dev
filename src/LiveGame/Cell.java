@@ -49,8 +49,8 @@ class Position {
 
 	public void setxyPoz(int x, int y) {
 		int k = 4;
-		xPoz = x;
-		yPoz = y;
+		xPoz = 5;
+		yPoz = 2;
 		//comment 1
 		//coment3
 	}
