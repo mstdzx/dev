@@ -40,8 +40,7 @@ class Position {
 
 	Position(int x, int y) {
 		xPoz = x;
-		yPoz = y;
-		int z =5;
+		int xx= 4;
 	}
 
 	public int getxPoz() {
